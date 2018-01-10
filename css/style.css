@@ -26,10 +26,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border-radius: 15px;
 }
 ul li {
 		display: inline-block;
-		float: center;
     	color: white;
     	text-align: right;
     	padding: 14px 16px;

@@ -7,9 +7,10 @@ header h1 {
     text-align: center;
 }
 
-p {
+
+h2 {
   text-align: center
-}
+  }
 
 body {
   background: linear-gradient(to top, black, gray);
@@ -26,10 +27,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border-radius: 15px;
 }
 ul li {
     display: inline-block;
-    float: center;
       color: white;
       text-align: right;
       padding: 14px 16px;
@@ -49,7 +50,7 @@ li a:hover {
 
 
 main {
-  padding: 50px 10;
+  padding: 50px;
   width: 120px;
   margin: 0 auto;
 }
@@ -57,16 +58,6 @@ main {
 header {
   height: 100px;
   margin-bottom: 80px;
-}
-
-h1 {
-
-  float: center;
-  margin: 0;
-}
-
-h2 {
-  margin: 0 0 50px;
 }
 
 #cart-container {
