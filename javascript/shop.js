@@ -1,4 +1,4 @@
-window.onload = function () {       //I use this onload event to check the console and make sure my javascript has linked correctly
+window.onload = function () {       //I use this onload event to check the console and make sure my javascript has linked correctly and most importantly prep the DOM
     init();
 
     function init() {
