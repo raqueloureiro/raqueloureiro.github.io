@@ -2,17 +2,24 @@
   font-family: Arial;
 }
 
+p {
+  color: white;           /*Making sure the text is visible since this is a gradient background that gets darker*/
+}
+
 header h1 {
     width: 100%;
     text-align: center;
 }
 
+a{
+  text-decoration:none;               /*Dont want underlines under links*/
+}
 
 h2 {
   text-align: center
-  }
+}
 
-body {
+body {                                                            /*setting a gradient background here, a dark theme for the site*/
   background: linear-gradient(to top, black, gray);
   width:100%;
   height: 100%;
@@ -30,7 +37,7 @@ ul {
     border-radius: 15px;
 }
 ul li {
-    display: inline-block;
+    display: inline-block;                                      /*This is my makeshift "nav bar" that links to other pages on the site*/
       color: white;
       text-align: right;
       padding: 14px 16px;
@@ -43,7 +50,7 @@ ul li {
       border-bottom: 1px solid #888;
 }
 
-li a:hover {
+li a:hover {                                                  /*Makes links to other sites just a little more interactive when hovered*/
     background-color: #fff;
     color: #c00;
 }
@@ -60,13 +67,7 @@ header {
   margin-bottom: 80px;
 }
 
-#cart-container {
-  float: right;
-  width: 210px;
-  position: relative;
-}
-
-#itemCount {
+#itemCount {                                                  /*I wanted the cart total counter to have a quirky round placeholder for the total*/
   position: static;
   border: 2px solid;
   border-color: gray;
@@ -89,8 +90,4 @@ img {
   width: 15%;
   float: left;
   margin: 8%;
-}
-
-i:hover {
-  cursor: pointer;
 }

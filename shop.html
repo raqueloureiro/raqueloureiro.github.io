@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html>   <!--tells the web browser about what version of HTML the page is written in, just a doctype declaration-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Raquel Loureiro</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="javascript/shop.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/shop.css">
+
+<head>    <!--container for all the head elements-->
+    <meta charset="UTF-8">    <!--setting 8-bit character set-->
+    <title>Raquel Loureiro</title>    <!--sets the title of my site, looks nicer seeing my name up in the tab-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    <!--linking to online jquery library so i can use effective local storage and JS-->
+    <script src="javascript/shop.js"></script>    <!--reference to the javascript the page should use-->
+    <link rel="stylesheet" type="text/css" href="css/shop.css">   <!--linking the style sheet needed for this page to the one in the designated folder-->
 </head>
-<body>
+
+<body>    <!--a container for my head elements-->
     <header>
-        <h1>Raquel Loureiro</h1>
-         <ul>
+        <h1>Raquel Loureiro</h1>    <!--header tag, stays at the top of page-->
+    <ul>
   			<li><a href="index.html">Home</a></li>
-  			<li><a href="shop.html">Shop</a></li>
+  			<li><a href="shop.html">Shop</a></li>                          <!--links to different pages on my site, styled like a nav bar-->
   			<li><a href="contact.html">Contact & About</a></li>
+        <li><a href="log.html">Critical Log</a></li>
+        <li><a href="demo.html">Demo (Video)</a></li>
 		</ul> 
     </header>
 
 
-     <h2>Shopping Cart</h2>
-    <div id="cart-container">
+     <h2>Shopping Cart</h2>           <!--cart items and buttons-->
       <div id="cart">
-        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
         <button class="clear">Empty Cart</button>
       </div>
-      <span id="itemCount"></span>
-    </div>
+      <p>Number of items in cart:</p><span id="itemCount"></span>
 
   <div class="item">
     <div class="itemDetails">
@@ -47,7 +48,7 @@
       </div>
       <div class="itemText">
         <p class="price">Price: £100</p>
-        <p>It's a little weiner dog! - Canvas Print, 40x50 cm</p>
+        <p>It's a little weiner dog! - Canvas Print, 40x50 cm</p>           <!--I used loads of divs because it was easier for me to get my images imported and layed out this way-->
       </div>
     </div>
     <button class="add">Add to cart</button>
@@ -60,7 +61,7 @@
       </div>
       <div class="itemText">
         <p class="price">Price: £15</p>
-        <p>Art perhaps? - Canvas Print, 20x30cm</p>
+        <p>Art perhaps? Who knows! - Canvas Print, 20x30cm</p>
       </div>
     </div>
     <button class="add">Add to cart</button>

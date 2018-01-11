@@ -11,8 +11,12 @@ p {
   text-align: center
 }
 
+a{
+  text-decoration:none;               /*Dont want underlines under links*/
+}
+
 body {
-  background: linear-gradient(to top, black, gray);
+  background: linear-gradient(to top, black, gray);               /*I used the samed gradient background throughout the site, consant dark them, 'white' space all that good stuff*/
   width:100%;
   height: 100%;
   margin: 0;
@@ -50,7 +54,7 @@ li a:hover {
 
 
 #slideshow { 
-    margin: 60px auto; 
+    margin: 60px auto;                                  /*I wanted the slideshow border to encompas the flowing images, gives the site a cleaner look*/
     position: relative; 
     width: 500px; 
     height: 400px; 
